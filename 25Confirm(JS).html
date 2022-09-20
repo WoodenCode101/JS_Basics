@@ -1,0 +1,31 @@
+<!-- //alert box e akta option thake(ok) r confirm box er 2 to option thake (ok or cancel)
+//onk website e dekhi are you 18+ bole alert ase die ok korle open hoy nato open hoyna. ota etar sahajje kora thake confirm box er moddhe if else use kore 
+//ok means true value cancel means false value -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Box</title>
+</head>
+<body>
+    
+
+    <script>
+        confirm("Do You ike this Website?"); //evabe ami j kono kichu ask korte pari
+
+        //amra confirm k akta var er moddhe store kore jodi kori
+        var a = confirm("Are You 18+?");
+        alert(a);
+
+        //ebare ota ke if else loop e use kori
+        var a = confirm("Are You 18+?");
+        if(a){
+            alert("You can enter");
+        }else {
+            alert("You can't enter")
+        }
+    </script>
+</body>
+</html>
